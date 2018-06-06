@@ -2,31 +2,67 @@
 <html>
   <head>
     <title> Portfolio | Anita Shah </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-purple.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <!-- Font Awesome -->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
   </head>
   <body>
-  	<header>
+      <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1> Anita Shah </h1>
       <p class="slogan"> Designer and Developer From Sunny San Diego, CA </p>
     </header>
-    <main>
-           <div class="truwork">
-             <img src="" alt="truwork_screenshot"/>
-             <h2>truwork Cloud Storage</h2>
-             <p>SaaS Cloud Sharing Application</p>
+
+    <main class="mdl-layout__content mdl-grid">
+           <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4">
+             <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+                <img src="images/blue_logo_cloud.png" alt="truwork_logo"/>
+              </div>
+             <div class="mdl-cell mdl-cell--7-col">
+               <h2 class="mdl-card__title-text">truwork Cloud Storage</h2>
+               <p class="project-description mdl-card__supporting-text">SaaS Cloud Sharing Application </p>
+               </div>
            </div>
-           <div class="busybus">
-             <img src="" alt="busybus_screenshot"/>
-             <h2>BusyBus</h2>
-             <p>Visual Design</p>
+
+           <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+             <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+               <img src="images/Busybus.png" alt="busybus_screenshot"/>
+             </div>
+             <div class="mdl-card__title">
+               <h2 class="mdl-card__title-text">BusyBus</h2>
+             </div>
+             <div class="project-description mdl-card__supporting-text"> Visual Design </div>
            </div>
          </main>
-    <footer>
-       <ul>
-         <li> <a href="https://www.linkedin.com/in/anita-shah"> LinkedIn </a> </li>
-         <li> <a href="https://github.com/anitashah92/"> GitHub</a> </li>
-         <li> <a href="https://www.facebook.com/anitashah"> Facebook</a> </li>
-         <li> <a href="https://www.twitter.com/anitashah92"> Twitter</a> </li>
-         <li> <a href="mailto:anitashah92@gmail.com"> Email</a> </li>
+    <footer class="mdl-mini-footer">
+       <ul class="mdl-mini-footer__link-list">
+         <li>
+           <a href="https://www.linkedin.com/in/anita-shah"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+           </a>
+         </li>
+         <li>
+           <a href="https://github.com/anitashah92/"> <i class="fa fa-github-square" aria-hidden="true"></i>
+           </a>
+         </li>
+         <li>
+           <a href="https://www.facebook.com/anitashah"> <i class="fa fa-facebook-square" aria-hidden="true"></i>
+           </a>
+         </li>
+         <li>
+           <a href="https://www.twitter.com/anitashah92">  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+           </a>
+         </li>
+         <li>
+           <a href="mailto:anitashah92@gmail.com"> <i class="fa fa-envelope-square" aria-hidden="true"></i>
+           </a>
+         </li>
        </ul>
      </footer>
   </body>
