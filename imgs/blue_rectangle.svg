@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="117px" viewBox="0 0 120 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.1%" y="-7.9%" width="114.2%" height="115.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1.98660714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Mock-ups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-561.000000, -639.000000)" fill="#DFF7FE">
+            <rect id="Rectangle" filter="url(#filter-1)" transform="translate(621.000000, 697.500000) rotate(33.000000) translate(-621.000000, -697.500000) " x="579" y="660" width="84" height="75"></rect>
+        </g>
+    </g>
+</svg>
