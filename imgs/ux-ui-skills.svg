@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="437px" height="437px" viewBox="0 0 437 437" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mock-ups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Me" transform="translate(-65.000000, -2048.000000)">
+            <g id="Group" transform="translate(65.000000, 2048.000000)">
+                <text id="Designer" font-family="Lato-Bold, Lato" font-size="40" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="218" y="96">Designer</tspan>
+                </text>
+                <rect id="Rectangle-4" fill="#EDF0FF" x="0" y="0" width="437" height="437"></rect>
+                <text id="Hi-Fi-Mockup" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="259" y="176.333333">Hi-Fi Mockup</tspan>
+                </text>
+                <text id="User-Testing" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="259" y="222">User Testing</tspan>
+                </text>
+                <text id="UX/UI" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="175" y="80">UX/UI</tspan>
+                </text>
+                <text id="Survey" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="32" y="133">Survey</tspan>
+                </text>
+                <text id="Wireframing" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="259" y="134">Wireframing</tspan>
+                </text>
+                <text id="User-Personas" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="32" y="177.333333">User Personas</tspan>
+                </text>
+                <text id="User-Stories" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="32" y="221.666667">User Stories</tspan>
+                </text>
+                <text id="User-Flows" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="32" y="262">User Flows</tspan>
+                </text>
+                <text id="Branding" font-family="Lato-Regular, Lato" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="259" y="261">Branding</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

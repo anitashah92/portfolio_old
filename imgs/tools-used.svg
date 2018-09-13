@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="394px" height="394px" viewBox="0 0 394 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="case-study-copy" transform="translate(-930.000000, -1205.000000)">
+            <g id="Group-6" transform="translate(930.000000, 1205.000000)">
+                <rect id="Rectangle-4" stroke="#979797" stroke-width="7" x="3.5" y="3.5" width="387" height="387"></rect>
+                <text id="SKILLS" font-family="Lato-Black, Lato" font-size="18" font-weight="700" letter-spacing="1.62" fill="#4A4A4A">
+                    <tspan x="41" y="56">SKILLS</tspan>
+                </text>
+                <text id="DURATION" font-family="Lato-Black, Lato" font-size="18" font-weight="700" letter-spacing="1.62" fill="#4A4A4A">
+                    <tspan x="41" y="176">DURATION</tspan>
+                </text>
+                <text id="User-Experience,-Bra" font-family="Lato-Light, Lato" font-size="16" font-weight="300" letter-spacing="0.333333343" fill="#4A4A4A">
+                    <tspan x="41" y="98">User Experience, Branding, Visual Design</tspan>
+                </text>
+                <text id="3-months" font-family="Lato-Light, Lato" font-size="16" font-weight="300" letter-spacing="0.333333343" fill="#4A4A4A">
+                    <tspan x="41" y="211">3 months</tspan>
+                </text>
+                <text id="TOOLS-USED" font-family="Lato-Black, Lato" font-size="18" font-weight="700" letter-spacing="1.62" fill="#4A4A4A">
+                    <tspan x="41" y="287">TOOLS USED</tspan>
+                </text>
+                <text id="Sketch,-Invision,-Ba" font-family="Lato-Light, Lato" font-size="16" font-weight="300" letter-spacing="0.333333343" fill="#4A4A4A">
+                    <tspan x="41" y="322">Sketch, Invision, Balasmiq, draw.io, Usability </tspan>
+                    <tspan x="41" y="341">Hub, Google Forms</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

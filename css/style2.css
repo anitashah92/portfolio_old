@@ -1,0 +1,65 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: "lato";
+	background-color: #FDFDFD;
+}
+
+body {
+	display: grid;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.nav-bar {
+	padding: 20px 60px;
+/*	background-color: blue;*/
+	right: 0;
+	display: table;
+	width: 100%;
+
+}
+
+.logo {
+	left: 50px;
+	width: 10px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+ul {
+	display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+.nav-link {
+	font-size: 2rem;;
+	padding-left: 100px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	display: inline-block;
+}
+
+
+.nav-link a {
+	text-decoration: none;
+}
+
+#casestudy-navbar {
+  background-color: #F1FAFD;
+  height: 800px;
+}
+
+
+
+.case-study-body {
+  width: 80%;
+  margin: 0 auto;
+}
