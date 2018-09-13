@@ -400,6 +400,8 @@ width: 100%;
   font-family: "Playfair Display";
   font-size: 1.4rem;
   padding: 10px;
+  position: relative;
+  right: 10px;
 }
 
 .form-p {
@@ -927,6 +929,31 @@ div #logo-progression img {
     margin: 0 auto;
     margin-bottom: 50px;
   }
+  .contact-form {
+      display: inline;
+      height: auto;
+  }
+
+  .left-side-contact {
+    display: inline;
+  }
+
+  .left-side-text {
+    top: 0;
+    padding: 20px;
+  }
+
+  .right-side-contact {
+    display: inline;
+    width: auto;
+  }
+
+  .form-container {
+    right: 0;
+  }
+
+
+
 }
 
 @media screen and (max-width: 833px){
