@@ -3,9 +3,9 @@ box-sizing: border-box;
 }
 
 html {
-font-size: 10px;
-font-family: "lato";
-background-color: #FDFDFD;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  background-color: #FDFDFD;
 }
 
 body {
@@ -218,14 +218,14 @@ background: #ffa;
 }
 
 .right h1 {
-margin-top: 60px;
-margin-left: 30px;
-margin-bottom: 20px;
-font-size: 5rem;
-font-weight: 700;
-letter-spacing: .5px;
-color: #113764;
-font-family: "lato"
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #113764;
+  font-family: 'Lato', sans-serif;
 }
 
 .right div h4 {
@@ -235,7 +235,7 @@ font-weight: 300;
 font-size: 1.5rem;
 letter-spacing: .5px;
 padding-bottom: 5px;
-font-family: "lato";
+font-family: 'Lato', sans-serif;
 color: #113764;
 }
 
@@ -273,7 +273,7 @@ width: 100%;
 
 .aboutme-text {
 display: table-cell;
-font-family: "Lato";
+font-family: 'Lato', sans-serif;
 font-weight: 300;
 font-size: 1.8rem;
 line-height: 1.75;
@@ -305,7 +305,7 @@ display: none;
 }
 
 .about-me-headers {
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lato', sans-serif;
 text-transform: uppercase;
 font-weight: 600;
 font-size: 4rem;
@@ -553,7 +553,7 @@ text-align: center;
 display: table-cell;
 vertical-align: middle;
 font-size: 1.2rem;
-font-family: "lato";
+font-family: 'Lato', sans-serif;
 font-style: italic;
 font-weight: 400;
 color: #4A4A4A;
@@ -582,9 +582,13 @@ background-color: #FDFDFD;
 width: 80%;
 }
 
+.overview, .grey-background, .visual-design{
+  padding: 40px 0;
+}
+
 .overview-body {
 display: table;
-width: 85%;
+width: 70%;
 margin: 0 auto;
 }
 
@@ -594,15 +598,19 @@ vertical-align: top;
 }
 
 .section-title {
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 3.2rem;
+  font-weight: 700;
   color: #4A4A4A;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   padding-top: 75px;
-  padding-bottom: 40px;
+  padding-bottom: 6rem;
   width: 70%;
   margin: 0 auto;
 }
+
+/*.section-title span.second-word{
+  font-weight: 400;
+}*/
 
 .subsection {
   padding-bottom: 20px;
@@ -634,12 +642,13 @@ background: #BAD7E0;
 }
 
 .subsection-title {
-font-size: 1.8rem;
-font-family: "lato";
+font-size: 2.4rem;
+font-family: 'Lato', sans-serif;
 font-weight: 600;
 color: #4A4A4A;
 padding-bottom: 20px;
 position: relative;
+letter-spacing: .1rem;
 }
 
 .emphasize-text-project {
@@ -647,11 +656,23 @@ font-weight: 500;
 }
 
 .section-paragraphs {
-font-size: 1.6rem;
-font-family: "Lato";
+font-family: 'Lato', sans-serif;
 line-height: 32px;
 font-weight: 300;
-padding-bottom: 15px;
+}
+
+.section-button {
+font-weight: 700;
+text-decoration: none;
+font-size: 1.4rem;
+color: #4A4A4A;
+position: relative;
+}
+
+
+.section-button, .section-paragraphs{
+  padding-bottom: 30px;
+  font-size: 1.8rem;
 }
 
 .tools-used {
@@ -670,7 +691,12 @@ padding-top: 80px;
 }
 
 .table-text {
-  display: table;
+  display: inline-block;
+  padding-bottom: 4rem;
+}
+
+.table-text.no-bottom-padding{
+  padding-bottom: 0;
 }
 
 .survey-text {
@@ -690,16 +716,10 @@ margin-top: 40px;
 }
 
 .button-div {
-padding-bottom: 15px;
+padding-bottom: 30px;
 }
 
-.section-button {
-font-weight: 700;
-text-decoration: none;
-font-size: 1.4rem;
-color: #4A4A4A;
-position: relative;
-}
+
 
 .section-button::after{
 content: url('../imgs/right-arrow.svg');
@@ -766,7 +786,7 @@ list-style: initial;
 
 .user-persona-bullet li {
 padding-top: 10px;
-font-family: "lato";
+font-family: 'Lato', sans-serif;
 font-size: 1.4rem;
 line-height: 25px;
 font-weight: 300;
@@ -784,12 +804,14 @@ vertical-align: top;
 }
 
 .user-stories-img {
-display: table-cell;
-padding-left: 40px;
+  width: 100%;
+  padding: 30px 30px 30px 30px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .user-stories-img img {
-height: 400px;
+  width: 100%;
 }
 
 .visual-design {
@@ -827,7 +849,7 @@ figcaption {
 }
 
 .branding-subsection h3 {
-  font-family: "lato";
+  font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   font-style: italic;
@@ -837,7 +859,7 @@ figcaption {
 }
 
 .branding-subsection p {
-  font-family: 'lato';
+  font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
 }
@@ -894,7 +916,7 @@ div #logo-progression img {
 }
 
 .grey-bullet {
-  font-family: 'lato';
+  font-family: 'Lato', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 25px;
@@ -1151,7 +1173,7 @@ div #logo-progression img {
   }
 
   .aboutme-text {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.75;
@@ -1292,7 +1314,7 @@ div #logo-progression img {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  font-family: "lato";
+  font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   font-style: italic;
