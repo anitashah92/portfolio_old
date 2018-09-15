@@ -101,11 +101,11 @@ width: 100%;
 }
 
 .intro-text {
-position: relative;
-z-index: 1;
-width: 300px;
-margin-left: 18%;
-margin-top: 150px;
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  left: 575px;
+  top: 150px;
 }
 
 #hello {
@@ -158,15 +158,15 @@ z-index: -1;
 }
 
 #green_rec {
-position: relative;
-bottom: 500px;
-left: 350px;
+  position: relative;
+  bottom: 500px;
+  right: 150px;
 }
 
 #blue_rec {
-position: relative;
-left: 250px;
-bottom: 350px;
+  position: relative;
+  right: 150px;
+  bottom: 400px;
 }
 
 .featured-projects {
@@ -300,7 +300,8 @@ width: 50%;
 }
 
 #bio-pic {
-width: 100%
+width: 100%;
+display: none;
 }
 
 .about-me-headers {
@@ -639,6 +640,10 @@ font-weight: 600;
 color: #4A4A4A;
 padding-bottom: 20px;
 position: relative;
+}
+
+.emphasize-text-project {
+font-weight: 500;
 }
 
 .section-paragraphs {
@@ -1123,6 +1128,10 @@ div #logo-progression img {
   .main-aboutme {
     display: table;
     margin: 0 auto;
+  }
+
+  .scroll-img {
+    background-image: none;
   }
 
   .about-me-pic {
