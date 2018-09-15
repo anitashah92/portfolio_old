@@ -246,13 +246,7 @@ width: 100%;
 }
 
 .scroll-img {
-  background-image: url(../imgs/testimg.jpg);
-  /* background-position: left center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #ffffff; */
-
+  background-image: url(../imgs/anita_biopic2.jpg);
   background-position: 100% 35%;
   background-position-x: left;
   background-repeat: no-repeat;
@@ -320,6 +314,10 @@ color: #4A4A4A
 
 .skills {
 width: auto;
+}
+
+.skill-icons-section {
+  padding-top: 30px;
 }
 
 .skill-icons-section h1 {
