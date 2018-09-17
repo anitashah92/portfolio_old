@@ -1034,64 +1034,75 @@ div #color-pallete img {
   margin-bottom: 50px;
 }
 
-.hi-fi-img {
+/* HIFI SECTION */
+
+.hifi-box-container{
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding: 30px 30px 30px 30px;
-  overflow: hidden;
-  margin: 0 auto;
 }
 
-.hi-fi-title {
-  padding-top: 40px;
-  width: 100%
+.hifi-row{
+  min-height: 300px;
+  max-height: 500px;
+  width: 100%;
+  border: green 1px solid;
+  display: flex;
+  flex-direction: row;
 }
 
-.hi-fi-title h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-  font-style: italic;
-  font-weight: 400;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.truwork-homepage {
-    width: 100%;
-    margin: 0 auto;
-    background: green;
-    display: inline-flex;
-}
-
-.truwork-homepage img {
+.hifi-cell{
   width: 50%;
-  display: table-cell;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
-/* .hi-fi-img img {
-  width: 70%;
-  margin: 0 auto;
+.hifi-row.blue .hifi-cell.hifi-right{
+  background: #DFF7FE;
+}
+.hifi-row.blue .hifi-cell.hifi-left{
+  background: #BCD9E2;
+}
+.hifi-row.purple .hifi-cell.hifi-right{
+  background: blue;
 }
 
-.hi-fi-mockups{
-  display: table;
+.hifi-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
   width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+a.hifi-cell:hover{
+  background-color: rgba(0,0,0,.2)!important;
+}
+
+.hifi-image{
+  width: 80%;
   margin: 0 auto;
 }
 
-.truwork-homepage {
-  display: table-cell;
+.hifi-image img{
+  width: 100%;
+  box-shadow: 2px 10px 34px 0 rgba(0,0,0,0.50);
 }
 
-.vertical-imgs {
-  vertical-align: top;
-  text-align: right;
-  padding-left: 20px;
-  padding-right: 10px;
+.hifi-image.hifi-homepage-img{
+  padding-top: 50px;
+  align-self: flex-start;
 }
 
-.truwork-signin {
-  padding-top:100px;
-} */
+/*.hifi-cell{
+  min-height: 300px;
+  background: green;
+}*/
 
 .grey-bullet-points {
   text-align: left;
