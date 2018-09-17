@@ -424,12 +424,6 @@ color: #113764;
   font-weight: 500;
 }
 
-.about-me-pic {
-  display: table-cell;
-  vertical-align: top;
-  padding: 70px;
-  width: 50%;
-}
 
 #bio-pic {
   width: 100%;
@@ -1475,17 +1469,16 @@ a.hifi-cell:hover{
   }
 
   .about-me-pic {
-    text-align: center;
-    padding-bottom: 20px;
-    position: relative;
-    width: 60%;
     display: block;
     padding-top: 30px;
-    margin: 0 auto;
+  }
+
+  .about-me-pic {
+    width: 100%;
   }
 
   #bio-pic {
-    width: 100%;
+    min-width: 50%;
     margin: 0 auto;
     display: block;
   }
@@ -1503,6 +1496,11 @@ a.hifi-cell:hover{
 
   .about-me-headers {
   font-size: 3rem;
+  }
+
+  .aboutme-text {
+    width: 100%;
+    margin: none;
   }
 
   .skills {
