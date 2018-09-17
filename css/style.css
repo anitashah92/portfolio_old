@@ -30,11 +30,7 @@ display: table-cell;
 vertical-align: middle;
 }
 
-ul {
-display: table-cell;
-  text-align: right;
-  vertical-align: middle;
-}
+ul {/* display: table-cell; */text-align: right;/* vertical-align: middle; */}
 
 
 .nav-link {
@@ -98,49 +94,68 @@ font-weight: 300;
 .intro-hp {
 height: 500px;
 width: 100%;
+padding-top: 40px;
+}
+
+
+
+.intro-text-width {
+  /* position: relative;
+  z-index: 1;
+  width: 500px;
+  left: 575px;
+  top: 150px;
+  background: green; */
+
+z-index: 1;
+width: 100%;
+top: 100px;
+position: relative;
 }
 
 .intro-text {
+  width: 50%;
+  margin: 0 auto;
   position: relative;
-  z-index: 1;
-  width: 300px;
-  left: 575px;
-  top: 150px;
+  left: 200px;
+}
+
+#hello,
+#anita,
+#description,
+#sandiego {
+  padding-bottom: 10px;
 }
 
 #hello {
-font-size: 72px;
-font-family: 'Lato', sans-serif;
-font-weight: 800;
-color: #113764;
-letter-spacing: 4.54px;
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #113764;
+  letter-spacing: 1px;
 }
 
 #anita {
-font-size: 50px;
-font-family: 'Lato', sans-serif;
-font-weight: 600;
-color: #113764;
-padding-top: 10px;
-letter-spacing: 2px;
+  font-size: 7rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  color: #113764;
 }
 
 #description {
-font-size: 2.0625rem;
-font-family: 'Lato', sans-serif;
-font-weight: 300;
-color: #113764;
-padding-top: 10px;
-letter-spacing: 1.6px;
+  font-size: 3.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #113764;
+  letter-spacing: 1.4px;
 }
 
 #sandiego {
-font-size: 33px;
-font-family: 'Lato', sans-serif;
-font-weight: 400;
-color: #113764;
-padding-top: 10px;
-letter-spacing: 1.6px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #113764;
+  letter-spacing: 1px;
 }
 
 .homepage-rectangles {
@@ -150,23 +165,22 @@ position: relative;
 }
 
 #purple_rec {
-position: relative;
-/* top: 300px; */
-right: 50px;
-bottom: 250px;
-z-index: -1;
+  position: relative;
+  right: 50px;
+  bottom: 250px;
+  z-index: -1;
 }
 
 #green_rec {
   position: relative;
-  bottom: 500px;
+  bottom: 550px;
   right: 150px;
 }
 
 #blue_rec {
   position: relative;
-  right: 150px;
-  bottom: 400px;
+      right: 150px;
+      bottom: 400px;
 }
 
 .featured-projects {
@@ -238,6 +252,145 @@ padding-bottom: 5px;
 font-family: 'Lato', sans-serif;
 color: #113764;
 }
+
+/* .truwork-container {
+  background: rgba(248, 248, 220, 100);
+  width: 100%;
+  margin: 0 auto;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.truwork-container img {
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+}
+
+.project-hover{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.truwork-container:hover .truwork-display {
+  opacity: 0.3;
+}
+
+.truwork-container:hover .project-hover{
+  opacity: 1;
+}
+
+.project-hover {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+
+.featured-header {
+  padding: 30px;
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.featured-header h1 {
+  font-family: "Lato" sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 700;
+
+}
+
+
+.project-container {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.featured-project {
+    position: relative;
+    width: 80%;
+    background: rgba(248, 248, 220, 100);
+    margin: 0 auto;
+    height: 300px;
+}
+
+.image-project {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding: 20px;
+}
+
+.comingsoon-project {
+  opacity: 1;
+  transition: .1s ease;
+  backface-visibility: hidden;
+  padding: 20px;
+  font-size: 4rem;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.middle-project {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.featured-project:hover .image-project {
+  opacity: 0.3;
+}
+
+.featured-project:hover .comingsoon-project {
+  opacity: 0.3;
+  display: none;
+}
+
+.featured-project:hover .middle-project {
+  opacity: 1;
+}
+
+.text-project {
+  color: #113764;
+  padding: 16px 32px;
+  width: 100%;
+  font-family: "Lato" sans-serif;
+}
+
+.text-project h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.text-project h4 {
+  font-size: 1.6rem;
+  padding-top: 10px;
+}
+
+
+
 
 /* About Me Styling */
 .main-aboutme {
@@ -770,29 +923,25 @@ width: 60%;
 vertical-align: top;
 }
 
-.user-persona-pics {
-margin: 0 auto;
-display: flex;
-justify-content: space-evenly;
-margin-bottom: 30px;
-margin-top: 30px;
-border-radius:
+ div #ca-2 img {
+   width: 100%;
+   padding-bottom: 30px;
+ }
+.user-persona-bullet{
+  width: 200px;
 }
 
-.user-persona-list {
-text-align: left;
-list-style: initial;
-}
+.user-persona-pics {margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #FAFAF9;
+  box-shadow: 0px 2px 13px 8px #CECECE;}
 
-.user-persona-bullet li {
-padding-top: 10px;
-font-family: 'Lato', sans-serif;
-font-size: 1.4rem;
-line-height: 25px;
-font-weight: 300;
-display: list-item;
-width: 60%;
-}
+.user-persona-list {text-align: left;list-style: initial;}
+
+.user-persona-bullet li {padding-top: 10px;font-family: 'Lato', sans-serif;font-size: 1.4rem;line-height: 25px;font-weight: 300;display: list-item;/* width: 60%; */}
 
 .user-stories-flows {
 display: table;
@@ -874,10 +1023,54 @@ figcaption {
 div #logo-progression img {
   width: 100%;
   margin: 0 auto;
-  height: 80px;
+  height: 100px;
   margin-bottom: 50px;
 }
 
+div #color-pallete img {
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.hi-fi-img {
+  width: 100%;
+  padding: 30px 30px 30px 30px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.hi-fi-title {
+  padding-top: 40px;
+  width: 100%
+}
+
+.hi-fi-title h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.truwork-homepage {
+    width: 100%;
+    margin: 0 auto;
+    background: green;
+    display: inline-flex;
+}
+
+.truwork-homepage img {
+  width: 50%;
+  display: table-cell;
+}
+
+/* .hi-fi-img img {
+  width: 70%;
+  margin: 0 auto;
+}
 
 .hi-fi-mockups{
   display: table;
@@ -898,17 +1091,19 @@ div #logo-progression img {
 
 .truwork-signin {
   padding-top:100px;
-}
+} */
 
 .grey-bullet-points {
   text-align: left;
   list-style: initial;
   padding-left: 10px;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .grey-rectangle {
-  width: 300px;
-  height: 175px;
+  width: 400px;
+  height: 250px;
   background-color: rgba(242, 242, 242, 100);
   display: table;
   margin: 0 auto;
@@ -922,6 +1117,37 @@ div #logo-progression img {
   line-height: 25px;
   margin: 20px;
 }
+
+.user-change-container {
+  width: 100%;
+}
+
+.user-changes {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 30px;
+}
+
+.user-change-img {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.user-change-img-1 {
+  width: 45%;
+  height: 45%;
+}
+
+.right-arrow-change {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+
+
+
 
 .conclusion {
   width: 80%;

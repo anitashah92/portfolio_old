@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1206px" height="173px" viewBox="0 0 1206 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="case-study-copy" transform="translate(-116.000000, -7155.000000)">
+            <g id="Group-9" transform="translate(116.000000, 7155.000000)">
+                <g id="light_-grey" transform="translate(992.000000, 0.000000)">
+                    <rect id="Rectangle-6" fill="#F9F9F9" fill-rule="nonzero" x="0" y="0" width="214" height="173"></rect>
+                    <g id="F9F9F9" transform="translate(57.000000, 66.000000)" fill="#4A4A4A" font-family="OpenSans-Semibold, Open Sans" font-size="30" font-weight="500">
+                        <text>
+                            <tspan x="0" y="32">F9F9F9</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="dark_grey" transform="translate(747.000000, 0.000000)">
+                    <rect id="Rectangle-6" fill="#4A4A4A" fill-rule="nonzero" x="0" y="0" width="214" height="173"></rect>
+                    <g id="4A4A4A" transform="translate(52.000000, 66.000000)" fill="#FFFFFF" font-family="OpenSans-Semibold, Open Sans" font-size="30" font-weight="500">
+                        <text>
+                            <tspan x="0" y="32">4A4A4A</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="light_yellow" transform="translate(497.000000, 0.000000)">
+                    <rect id="Rectangle-6" fill="#FDF8B2" fill-rule="nonzero" x="0" y="0" width="214" height="173"></rect>
+                    <g id="FDF8B2" transform="translate(53.000000, 66.000000)" fill="#4A4A4A" font-family="OpenSans-Semibold, Open Sans" font-size="30" font-weight="500">
+                        <text>
+                            <tspan x="0" y="32">FDF8B2</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="yellow" transform="translate(245.000000, 0.000000)">
+                    <rect id="Rectangle-6" fill="#FAF272" fill-rule="nonzero" x="0" y="0" width="214" height="173"></rect>
+                    <g id="FAF272" transform="translate(55.000000, 66.000000)" fill="#4A4A4A" font-family="OpenSans-Semibold, Open Sans" font-size="30" font-weight="500">
+                        <text>
+                            <tspan x="0" y="32">FAF272</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="dark_blue">
+                    <rect id="Rectangle-6" fill="#262A34" fill-rule="nonzero" x="0" y="0" width="214" height="173"></rect>
+                    <g id="262A34" transform="translate(54.000000, 66.000000)" fill="#FFFFFF" font-family="OpenSans-Semibold, Open Sans" font-size="30" font-weight="500">
+                        <text>
+                            <tspan x="0" y="32">262A34</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
