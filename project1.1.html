@@ -14,7 +14,7 @@
    <body>
 
      <!--NAVBAR -->
-    	<section class="nav-bar-section">
+    	<section class="nav-bar-section" id="casestudy-navbar">
     		<nav class="nav-bar">
     			<div class="logo">
            <a href="index.html">
@@ -43,9 +43,6 @@
  	 		</ul>
  	 	</nav>
 
-  </section>
-
-
     <!--Case Study -->
       <div class="case-study-header">
         <div class = "hero-image-container">
@@ -69,14 +66,14 @@
 
     <section class="case-study-body">
 
-      <div class="overview">
+      <div class="overview page-section">
         <div class="section-hero-title">
           <h1 class="section-title"> OVERVIEW </h1>
         </div>
 
-        <div class="overview-body">
+        <div class="overview-body subsection">
               <!-- Problem-->
-            <div class="overview-body-text">
+            <div class="overview-body-text ">
               <div class="table-text">
                   <h2 class="subsection-title blue-highlight"> <span> Problem </span> </h2>
                   <p class="section-paragraphs"> A client came to us with the problem that the cloud storage and organization platform is a fast growing marketplace. From Google Drive to Evernote, each digital note taking and syncing service offers a variety of convenient features to enhance productivity and to keep content stored and accessible at any time. However, sometimes these platforms are <span class="emphasize-text-project"> not intuitive and lack in some important features </span> i.e. the ability to categorize content and/or view previews of files. </p>
@@ -90,17 +87,11 @@
 
           </div>
 
-              <!-- Tools used-->
-
-             <!--  <div class="tools-used">
-                <img src="imgs/tools-used.svg" alt="tools-used">
-              </div> -->
-
         </div>
       </div>
 
       <div class="grey-background">
-        <div class="user-research">
+        <div class="user-research page-section">
           <div class=section-hero-title>
             <h1 class="section-title"> USER RESEARCH </h1>
           </div>
@@ -117,16 +108,18 @@
                 <p class="section-paragraphs">Overall, there was no clear pattern in the data that suggested users were unhappy with their current mediums of cloud-sharing. So the challenge that was presented was to focus on the main important points from the survey and build upon that.
                 </p>
 
-                <div class="button-div">
-                  <a class="section-button" id="survey-btn" href="https://docs.google.com/spreadsheets/d/1Yl2_EqB6eIX_aWSGlWGf7iphKk9k80HvxQY1J45Pa-o/edit?usp=sharing" target = "_blank"> view survey results </a>
-                </div>
-
               </div>
 
               <figure class="survey-img">
-                <img src="imgs/cloud-usage-pie-chart.png" alt="survey-img">
-                <figcaption>How many users use cloud base services?</figcaption>
+                <a href="imgs/cloud-usage-pie-chart.png" data-lightbox="image-1"data-title="Survey Pie Chart">
+                  <img src="imgs/cloud-usage-pie-chart.png" alt="survey-img">
+                </a>
+                <figcaption>How often do users use cloud based services?</figcaption>
               </figure>
+
+              <div class="button-div" id="survey-btn">
+                <a class="section-button" href="https://docs.google.com/spreadsheets/d/1Yl2_EqB6eIX_aWSGlWGf7iphKk9k80HvxQY1J45Pa-o/edit?usp=sharing" target = "_blank"> view survey results </a>
+              </div>
 
             </div>
 
@@ -140,7 +133,9 @@
                   <p class="section-paragraphs"> For example, Drive and Dropbox have no easy simple way of saving links, while Evernote lacks in note storing. Overall, the research revealed new insights and opportunities that could be used to create into a new product. </p>
 
                   <div id="ca-2">
-                    <img src="imgs/ca-2.png" alt="ca-2"/>
+                    <a href="imgs/ca-2.png" data-lightbox="image-1"data-title="Competitive Analysis">
+                      <img src="imgs/ca-2.png" alt="ca-2"/>
+                    </a>
                   </div>
 
                   <div class="button-div">
@@ -161,12 +156,13 @@
                   <p class="section-paragraphs"> Both users found that easy collaborative features are needed & a need for a better way to organize and view files was important </p>
                 </div>
 
+                <div class="user-persona-container">
                 <div class="user-persona-pics">
 
                       <div class="user-persona-bullet" id="parima">
                         <img src="imgs/persona1.png" alt="persona1">
                           <ul class="user-persona-list">
-                            <li> She would like something that lets her save her favorite links seamlessly </li>
+                            <li> She would like something that lets her save her favorite links seamlessly. </li>
                             <li>She would like something with a faster upload speed. </li>
                           </ul>
                       </div>
@@ -174,10 +170,11 @@
                       <div class="user-persona-bullet" id="vidhi">
                         <img src="imgs/persona2.png" alt="persona2">
                           <ul class="user-persona-list">
-                              <li> She wants something that keeps tracks of links</li>
-                            <li> View all of her notes from one location </li>
+                            <li> She wants something that keeps tracks of links. </li>
+                            <li> View all of her notes from one location. </li>
                           </ul>
                       </div>
+                    </div>
 
                   </div>
 
@@ -218,7 +215,7 @@
         </div>
       </div>
 
-          <div class="visual-design">
+          <div class="visual-design page-section">
             <div class=section-hero-title>
               <h1 class="section-title"> VISUAL DESIGN </h1>
             </div>
@@ -269,6 +266,7 @@
                       </div>
                     </div>
                     <div id="logo-progression">
+
                       <img src="imgs/truwork_logos.svg" alt="logo_progression"/>
                     </div>
 
@@ -299,10 +297,10 @@
 
                 <div class="hifi-box-container">
                   <div class="hifi-row blue">
-                    <div class="hifi-cell hifi-right">
+                    <div class="hifi-cell hifi-left hifi-text">
                       <h1> Sign Up Page For New Users</h1>
                     </div>
-                    <a href="imgs/hifi-signup.png" data-lightbox="image-1"data-title="Sign up Page" class="hifi-cell hifi-left">
+                    <a href="imgs/hifi-signup.png" data-lightbox="image-1"data-title="Sign up Page" class="hifi-cell hifi-right">
                       <div class="hifi-image">
                         <img src="imgs/hifi-signup.png" />
                          <div class="hifi-overlay">See more</div>
@@ -316,7 +314,7 @@
                         <img src="imgs/hifi-homepage.png" />
                       </div>
                   </a>
-                    <div class="hifi-cell hifi-left">
+                    <div class="hifi-cell hifi-left hifi-text">
                       <h1> Homepage </h1>
                     </div>
                   </div>
@@ -330,10 +328,10 @@
                   </div>
 
                   <div class="hifi-row blue">
-                    <div class="hifi-cell hifi-right">
+                    <div class="hifi-cell hifi-left hifi-text">
                       <h1> Collaboration Document </h1>
                     </div>
-                    <a href="imgs/hifi-share.png" data-lightbox="image-1"data-title="Share" class="hifi-cell hifi-left">
+                    <a href="imgs/hifi-share.png" data-lightbox="image-1"data-title="Share" class="hifi-cell hifi-right">
                       <div class="hifi-image">
                         <img src="imgs/hifi-share.png" />
                          <div class="hifi-overlay">See more</div>
@@ -361,6 +359,7 @@
                     </div>
 
                     <p class="section-paragraphs"> A few issues were brought up & changed for the final product: </p>
+                </div>
 
                  <div class="grey-rectangle">
                    <div class="grey-bullet">
@@ -373,7 +372,6 @@
                    </div>
                  </div>
 
-              </div>
 
               <div class="testing-box-container">
                   <a href="imgs/changes1.png" data-lightbox="image-1"data-title="Changes 1" class="testing-row green">
@@ -385,6 +383,8 @@
                       <img src="imgs/returning-after.png" />
                     </div>
                   </a>
+                </div>
+
 
                   <div class="grey-rectangle">
                     <div class="grey-bullet">
@@ -393,6 +393,7 @@
                       </ul>
                     </div>
                   </div>
+
 
                 <div class="testing-box-container">
                   <a href="imgs/changes2.png" data-lightbox="image-1"data-title="Changes 2" class="testing-row green">
@@ -420,7 +421,7 @@
       </div>
 
       <div class="grey-background">
-        <div class="conclusion">
+        <div class="conclusion page-section">
           <div class=section-hero-title>
             <h1 class="section-title"> CONCLUSION </h1>
           </div>
