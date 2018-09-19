@@ -553,14 +553,14 @@ width: 100%;
 .contact-form {
   width: 85%;
   margin: 0 auto;
-  display: table;
+  display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   background: #EDF0FF;
 }
 
 .left-side-contact {
-  display: table-cell;
+  display: flex;
   width: 50%;
 }
 
@@ -575,7 +575,7 @@ width: 100%;
 }
 
 .right-side-contact {
-  display: table-cell;
+  display: flex;
   width: 50%;
 }
 
