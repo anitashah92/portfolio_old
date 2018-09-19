@@ -467,7 +467,8 @@ color: #113764;
 
 
  .skill-icons-section {
-  padding-top: 30px;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 .skill-icons-section h1 {
@@ -551,10 +552,10 @@ width: 100%;
 
 .contact-form {
   width: 85%;
-  height: 200px;
   margin: 0 auto;
   display: table;
   margin-top: 50px;
+  margin-bottom: 50px;
   background: #EDF0FF;
 }
 
@@ -638,8 +639,36 @@ input[type="text"]::placeholder {
     font-style: italic;
 }
 
-.comment-box {
-height: 28vh;
+  .comment-box {
+  height: 28vh;
+  }
+
+.resume {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+    border: 1px solid;
+    padding: 20px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #fff;
+    font-size: 1.8rem;
+    font-family: "Lato" sans-sans-serif;
+}
+
+.resume-button {
+    border-color: #DFF7FE;
+    color: #113764;
+    font-weight: 600;
+}
+
+.resume-button:hover {
+    background-color: #f1f1f1;
+    color: #113764;
 }
 
 /*truWork Styling */
@@ -862,10 +891,7 @@ padding-top: 80px;
 
 .table-text {
   display: inline-block;
-}
-
-.table-text.no-bottom-padding{
-  padding-bottom: 0;
+  padding-bottom: 30px;
 }
 
 .survey-text {
@@ -901,7 +927,7 @@ display: block;
 height: 2px;
 top: 0.6em;
 width: 100%;
-background: #4A4A4A;
+background: #4A4A4A;x
 -webkit-transform-origin: center right;
     -ms-transform-origin: center right;
         transform-origin: center right;
@@ -1556,7 +1582,7 @@ a.hifi-cell:hover{
 
 .intro-hp {
     height: 460px;
-
+}
 }
 
 
@@ -1573,6 +1599,7 @@ a.hifi-cell:hover{
 
   .featured-header h1 {
     font-size: 2rem;
+}
 }
 
 
@@ -1855,6 +1882,11 @@ a.hifi-cell:hover{
 
 .featured-header h1 {
   width: 40%;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 1.6rem;
 }
 
 }
