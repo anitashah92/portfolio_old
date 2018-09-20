@@ -38,9 +38,15 @@ ul.nav-ul{
   text-align: right;
 }
 
+/* nav {
+  position: fixed;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+  z-index: 5;
+} */
+
 .nav-link {
   font-size: 2rem;;
-  padding-left: 100px;
+  width: 20%;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   display: inline-block;
@@ -96,8 +102,8 @@ ul.nav-ul{
 
 .intro-text{
   position: absolute;
-  left: 42%;
-  top: 100px;
+  left: 43%;
+  top: 120px;
   z-index: 1;
 }
 
@@ -105,13 +111,13 @@ ul.nav-ul{
 #anita,
 #description,
 #sandiego {
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 #hello {
   font-size: 2.5rem;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #113764;
   letter-spacing: 1px;
 }
@@ -124,17 +130,17 @@ ul.nav-ul{
 }
 
 #description {
-  font-size: 3.0rem;
+  font-size: 2.5rem;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   color: #113764;
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
 }
 
 #sandiego {
   font-size: 2.5rem;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #113764;
   letter-spacing: 1px;
 }
@@ -369,7 +375,7 @@ color: #113764;
 }
 
 .featured-project:hover .image-project {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .featured-project:hover .comingsoon-project {
@@ -389,7 +395,7 @@ color: #113764;
 }
 
 .text-project h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 700;
 }
 
@@ -399,7 +405,7 @@ color: #113764;
 }
 
 .text-project h4 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding-top: 10px;
 }
 
@@ -679,7 +685,7 @@ input[type="text"]::placeholder {
 }
 
 .case-study-header {
-  margin-top: 100px;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -689,20 +695,24 @@ input[type="text"]::placeholder {
 }
 
 .hero-image-container{
-  margin: 0 auto;
-  width: 35%;
-  display: block;
-  padding-bottom: 50px;
+  /* margin: 0 auto; */
+  width: 100%;
+  /* display: block; */
+  /* padding-bottom: 50px; */
+  text-align: center;
+  background: green;
 }
 
 .hero-image-container img{
-  width: 100%;
+  /* width: 100%; */
+  width: 50%;
+  background:  pink;
 }
 
 .hero-text {
   margin: 0 auto;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
   max-width: 500px;
   position: relative;
 }
@@ -1008,6 +1018,14 @@ vertical-align: top;
   background: #FAFAF9;
   -webkit-box-shadow: 0px 2px 13px 8px #CECECE;
           box-shadow: 0px 2px 13px 8px #CECECE;
+
+}
+
+.user-persona-name {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .user-persona-list {
@@ -1043,6 +1061,7 @@ vertical-align: top;
   padding: 30px 30px 30px 30px;
   overflow: hidden;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .user-stories-img img {
@@ -1055,7 +1074,7 @@ vertical-align: top;
 
 .wireframe-pics {
   display: table;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   margin: 0 auto;
 }
 
@@ -1887,6 +1906,10 @@ a.hifi-cell:hover{
 .btn {
   padding: 15px 40px;
   font-size: 1.6rem;
+}
+
+.nav-link {
+  width: 30%;
 }
 
 }
