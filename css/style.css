@@ -1156,7 +1156,7 @@ vertical-align: top;
 
 .branding-subsection p {
   font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 300;
 }
 /*
@@ -1565,7 +1565,6 @@ a.hifi-cell:hover{
 .intro-text {
     left: 38%;
 }
-
 }
 
 @media screen and (max-width: 833px){
@@ -2204,6 +2203,14 @@ a.hifi-cell:hover{
 
 }
 
+@media screen and (max-width: 433px) {
+  li.nav-link {
+    padding: 0px;
+    padding-top: 20px;
+    font-size: 1.8rem;
+}
+}
+
 @media screen and (max-width: 400px) {
   #casestudy-navbar {
     height: 720px;
@@ -2217,11 +2224,11 @@ a.hifi-cell:hover{
     margin: 0 auto;
     text-align: center;
   }
-
+/*
   li.nav-link{
     padding: 15px;
     font-size: 1.8rem;
-  }
+  } */
 
   .tools-used img {
     height: 250px;
