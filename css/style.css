@@ -98,8 +98,8 @@ ul.nav-ul{
 
 .intro-text{
   position: absolute;
-  left: 43%;
-  top: 120px;
+  left: 40%;
+  top: 115px;
   z-index: 1;
 }
 
@@ -111,7 +111,7 @@ ul.nav-ul{
 }
 
 #hello {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #113764;
@@ -119,14 +119,14 @@ ul.nav-ul{
 }
 
 #anita {
-  font-size: 7rem;
+  font-size: 8rem;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #113764;
 }
 
 #description {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #113764;
@@ -134,7 +134,7 @@ ul.nav-ul{
 }
 
 #sandiego {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #113764;
@@ -248,14 +248,14 @@ color: #113764;
 .homepage-rectangles-container{
   position: relative;
   margin: 0 auto;
-  width: 500px;
+  width: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   top: 50px;
 }
 
@@ -265,11 +265,11 @@ color: #113764;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .green-rec-container{
@@ -439,7 +439,7 @@ color: #113764;
 
 .emphasize-text {
   color: #113764;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .about-me-pic {
@@ -895,7 +895,7 @@ padding-top: 80px;
 
 .table-text {
   display: inline-block;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .survey-text {
@@ -1073,11 +1073,10 @@ vertical-align: top;
 .user-persona-bullet li {
   padding-top: 10px;
   font-family: 'Lato', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 25px;
   font-weight: 300;
-  display:
-  list-item;
+  display: list-item;
 }
 
 .user-persona-container {
@@ -1130,13 +1129,13 @@ vertical-align: top;
 .survey-caption {
   text-align: center;
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .fig-caption {
   text-align: center;
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .branding-subsection {
@@ -1192,7 +1191,7 @@ div #color-pallete img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 .hifi-row{
@@ -1282,7 +1281,7 @@ a.hifi-cell:hover{
 }
 
 .hifi-cell.hifi-right h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1292,7 +1291,7 @@ a.hifi-cell:hover{
 }
 
 .hifi-cell.hifi-left h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1306,7 +1305,7 @@ a.hifi-cell:hover{
   list-style: initial;
   padding-left: 10px;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .grey-rectangle {
@@ -1410,14 +1409,30 @@ a.hifi-cell:hover{
             justify-content: space-evenly;
     padding-top: 30px;
     padding-bottom: 30px;
+    align-items: center;
+    /* color: yellow; */
 }
 
-.social-media img {
+.social-media i {
+  color: grey;
+}
+
+.fab {
+  font-size: 3rem;
+  padding-left: 20px;
+}
+
+.fas {
+  font-size: 3rem;
   padding-left: 20px;
 }
 
 .signature p {
   font-size: 1.4rem;
+}
+
+i:hover {
+  color: blue;
 }
 
 /* Media Styling */
