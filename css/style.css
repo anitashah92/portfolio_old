@@ -1015,8 +1015,8 @@ vertical-align: top;
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .ca-table-subtitle {
@@ -1025,7 +1025,6 @@ vertical-align: top;
   font-weight: 700;
   font-style: italic;
   padding-top:  10px;
-  padding-left: 10px;
   padding-bottom: 15px;
 }
 
@@ -1033,8 +1032,8 @@ vertical-align: top;
 .ca-table-description {
   font-size: 1.6rem;
   font-weight: 300;
-  padding-left: 10px;
   padding-bottom: 10px;
+  padding-right: 5px;
 }
 
 
@@ -1705,11 +1704,15 @@ i:hover {
 
 .ca-table-title {
   padding-bottom: 20px;
+  text-align: left;
+  font-size: 1.8rem;
 }
 
 .ca-table-subtitle {
   padding-bottom: 20px;
+  font-size: 1.6rem;
 }
+
 }
 
 
@@ -1966,21 +1969,17 @@ i:hover {
       margin-top: 50px;
   }
 
-  .hero-text h3 {
-    font-size: 1.5rem;
-  }
-
-  .hero-text h1 {
-    font-size: 5.5rem;
-  }
 
   .hero-text{
     max-width: 350px;
+    margin-top: 40px;
   }
 
   .prototype-button{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    bottom: 0px;
+    right: -35px;
   }
 
 
@@ -1991,6 +1990,7 @@ i:hover {
 .intro-text {
     left: 34%;
 }
+
 
 .prototype-button p {
   font-size: 1.2rem;
@@ -2145,7 +2145,6 @@ i:hover {
       height: 750px;
   }
 
-
 .subsection, .section-title{
   width: 100%;
   padding-left: 30px;
@@ -2153,11 +2152,11 @@ i:hover {
 }
 
   .hero-text h3 {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
   }
 
   .hero-text h1 {
-      font-size: 4.5rem;
+      font-size: 5rem;
   }
 
   .hero-image-container {
@@ -2165,14 +2164,14 @@ i:hover {
   }
 
   .prototype-button {
-    width: 50px;
-    height: 50px;
     position: relative;
+    width: 80px;
+    height: 80px;
     bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 5px;
+    top: 10px;
   }
 
   .prototype-button p {
@@ -2229,6 +2228,10 @@ i:hover {
 @media screen and (max-width: 400px) {
   #casestudy-navbar {
     height: 720px;
+}
+
+.ca-padding {
+  padding-left: 10px;
 }
 
 }
