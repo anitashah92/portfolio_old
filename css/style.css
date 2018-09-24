@@ -1579,6 +1579,11 @@ i:hover {
 .intro-text {
     left: 38%;
 }
+
+.fas {
+  padding-left: 0px;
+}
+
 }
 
 @media screen and (max-width: 833px){
