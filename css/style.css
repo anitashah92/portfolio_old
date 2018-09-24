@@ -1641,7 +1641,7 @@ i:hover {
   }
 
   .user-persona-pics {
-    display: inline;
+    display: inline-block;
     background: none;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -2062,7 +2062,7 @@ i:hover {
   } */
 
   .grey-bullet-points {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .hifi-row{
@@ -2213,6 +2213,10 @@ i:hover {
 
 .intro-hp {
   margin-top: 0px;
+}
+
+.less-padding{
+  padding-bottom: 10px;
 }
 
 }
