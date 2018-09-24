@@ -750,7 +750,7 @@ input[type="text"]::placeholder {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: 'Lato', sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -1993,7 +1993,7 @@ i:hover {
 
 
 .prototype-button p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .featured-header h1 {
@@ -2152,11 +2152,11 @@ i:hover {
 }
 
   .hero-text h3 {
-      font-size: 1.6rem;
+      font-size: 2rem;
   }
 
   .hero-text h1 {
-      font-size: 5rem;
+      font-size: 6rem;
   }
 
   .hero-image-container {
@@ -2175,7 +2175,7 @@ i:hover {
   }
 
   .prototype-button p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .section-title {
@@ -2222,6 +2222,10 @@ i:hover {
     padding: 0px;
     padding-top: 20px;
     font-size: 1.8rem;
+}
+
+.ca-table {
+  padding: 0;
 }
 }
 
