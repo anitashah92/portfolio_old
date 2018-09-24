@@ -2017,9 +2017,9 @@ i:hover {
 
 
 @media screen and (max-width: 604px) {
-  .user-persona-pics {
-    display: inline;
-  }
+  /* .user-persona-pics {
+    display: inline-block;
+  } */
 
   .user-persona-bullet {
     display: inline-block;
