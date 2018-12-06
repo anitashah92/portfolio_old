@@ -314,7 +314,9 @@ color: #113764;
 }
 
 .coHabit-project {
-  background: rgba(64, 154, 181, 100);
+  background: rgba(207, 221, 236, 100);
+  /* background-image: url(../imgs/coHabit-frames4.png);
+  background-size: cover; */
 }
 
 .new-project {
@@ -354,6 +356,8 @@ color: #113764;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   padding: 20px;
+  background-image: url(../imgs/coHabit-frames4.png);
+  background-size: cover;
 }
 
 
@@ -714,13 +718,26 @@ input[type="text"]::placeholder {
   color: #4A4A4A;
 }
 
-.hero-image-container{
+.hero-image-container,
+.cohabit-hero-image-container{
   /* margin: 0 auto; */
   width: 100%;
   /* display: block; */
   /* padding-bottom: 50px; */
   text-align: center;
 }
+
+.cohabit-hero-image-container{
+  height: 590px;
+  position: absolute;
+  background-image: url(../imgs/coHabit-frames4.png);
+  background-size: cover;
+  /* opacity: .5; */
+}
+
+/* .cohabit-hero-image-container img{
+    width: 100%;
+} */
 
 .hero-image-container img{
   /* width: 100%; */
@@ -735,7 +752,15 @@ input[type="text"]::placeholder {
   position: relative;
 }
 
-.hero-text h3 {
+.hero-text-cohabit {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 620px;
+  max-width: 500px;
+  position: relative;
+}
+
+.hero-text, .hero-text-cohabit h3 {
   font-family: "Playfair Display";
   font-weight: 400;
   font-style: italic;
@@ -748,7 +773,7 @@ input[type="text"]::placeholder {
   color: #4A4A4A;
 }
 
-.hero-text h1 {
+.hero-text, .hero-text-cohabit h1 {
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 7.2em;
@@ -1214,6 +1239,23 @@ vertical-align: top;
   margin: 0 auto;
 }
 
+.cohabit-hifi-mockups {
+  width: 100%;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.cohabit-anchor {
+  width: 20%;
+  height: 100%;
+}
+
+.cohabit-hifi-pics {
+  flex-direction: row;
+  width: 100%;
+  padding: 5px;
+}
+
 /* HIFI SECTION */
 
 .hifi-box-container{
@@ -1472,7 +1514,7 @@ i:hover {
 /*coHabit Styling */
 
 #casestudy-navbar2 {
-  background-color: #7FBACD;
+  background-color: #CFDDEC;
   height: 900px;
 }
 
