@@ -760,7 +760,16 @@ input[type="text"]::placeholder {
   position: relative;
 }
 
-.hero-text, .hero-text-cohabit h3 {
+.hero-text h3 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2rem;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+}
+
+.hero-text-cohabit h3 {
   font-family: "Playfair Display";
   font-weight: 400;
   font-style: italic;
@@ -773,7 +782,14 @@ input[type="text"]::placeholder {
   color: #4A4A4A;
 }
 
-.hero-text, .hero-text-cohabit h1 {
+.hero-text h1 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 7.2em;
+  color: #4A4A4A;
+}
+
+.hero-text-cohabit h1 {
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 7.2em;
@@ -1224,7 +1240,7 @@ vertical-align: top;
 #color-pallete img {
   width: 100%;
   margin: 0 auto;
-  height: 100px;
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -1749,6 +1765,8 @@ i:hover {
     padding-top: 10px;
     font-size: 1.1rem;
   }
+
+
 }
 
 @media screen and (max-width: 900px) {
@@ -1764,6 +1782,15 @@ i:hover {
 .hifi-cell.hifi-left h1 {
   font-size: 1.2rem;
 }
+
+.survey-img-container {
+  display: inline;
+}
+
+.survey-img-container figure {
+  padding-bottom: 30px;
+}
+
 }
 
 @media screen and (max-width: 862px){
@@ -1834,6 +1861,10 @@ i:hover {
   .project-column-container{
     margin-top: 50px;
     margin-left: 20px;
+  }
+
+  .user-persona-container {
+    text-align: center;
   }
 
   .user-persona-pics {
